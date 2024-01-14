@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yves Donut</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="container header-container">
+            <h1>Yves Donut</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Hero-->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Yves Donut</h1>
+            <p>Indulge in the sweetest pleasures with our delectable donuts.</p>
+        </div>
+    </section>
+
+        <!--About Section-->
+        <section id="about" class="about-us">
+            <div class="container">
+                <h1>About Us</h1>
+                <p>Welcome to Yves Donut, where passion meets flavor! We take pride in crafting exquisite donuts that delight your senses. Our journey began with a simple idea: to create a haven for donut enthusiasts, a place where every bite is a moment of pure bliss.</p>
+                <p>At Yves Donut, we are committed to using the finest ingredients to ensure each donut is a masterpiece. Our bakers pour their heart and soul into every recipe, bringing you a diverse selection of flavors that cater to all tastes.</p>
+                <p>Whether you crave the classic allure of a chocolate donut or the refreshing burst of a strawberry glaze, our menu is designed to satisfy every sweet tooth. Each donut is a testament to our dedication to quality and taste.</p>
+                <p>Visit Yves Donut and embark on a journey of flavors. Indulge in the warmth of our inviting space, where every donut is a celebration. Thank you for being a part of our sweet story!</p>
+            </div>
+        </section>
+
+   <!--Donut menu cards-->
+    <section id="menu" class="donut-menu">
+        <h1 class="menu-heading">Our Delicious Menu</h1>
+        <div class="container">
+            <article class="donut">
+                <img src="choco_donut.jpg" alt="Chocolate Donut">
+                <h2>Chocolate Donut</h2>
+                <p>A classic chocolate donut with a rich and smooth flavor.</p>
+                <button class="order-button">Order Now</button>
+            </article>
+            <article class="donut">
+                <img src="strawberry_donut.jpg" alt="Strawberry Donut">
+                <h2>Strawberry Donut</h2>
+                <p>Fresh strawberry glaze on a fluffy donut, a fruity delight!</p>
+                <button class="order-button">Order Now</button>
+            </article>
+            <article class="donut">
+                <img src="milk_donut.jpg" alt="Glazed Donut">
+                <h2>Glazed Donut</h2>
+                <p>Fresh strawberry glaze on a fluffy donut, a fruity delight!</p>
+                <button class="order-button">Order Now</button>
+            </article>
+            <article class="donut">
+                <img src="donut_sa_pinas.png" alt="Sugar Donut">
+                <h2>Sugar Donut</h2>
+                <p>Fresh strawberry glaze on a fluffy donut, a fruity delight!</p>
+                <button class="order-button">Order Now</button>
+            </article>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions or feedback? Reach out to us!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input placeholder="Yves Gamit" type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input placeholder="yvesgamit@gmail.com" type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea placeholder="Your Message" id="message" name="message" rows="4" required></textarea>
+
+
+                <button type="submit">Send Message</button>
+                
+            </form>
+        </div>
+    </section>
+<!--footer-->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yves Donut. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width"=device-width, initial-scale="1.0">
+<link rel="stylesheet"href="style.css">
+<title>Yves donut
+</title>
+</head>
+<body>
+<button="order-button">Order now
+</button>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Donut menu cards-->
+</head>
+<body>
+
+<!--Order now button-->
+<div id="purchaseMessageContainer"></div>
+<button id="orderButton" class="order=button">Order Now</button>
+
+<!--JavaScript code at the end of the body-->
+<script>
+    document.getElementById('orderButton').addEventListener('click', function() {
+        //Redirect to a purchase page
+    window.location.href = 'purchase page.html';
+    
+    //purchasing...
+    const successMessage = document.createElement('div');
+    successMessage.innerHTML = 'Purchase Successful!';
+    successMessage.classList.add('success-message');
+
+    document.getElementById('purchaseMessageContainer').appendChild(successMessage);
+
+    });
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
